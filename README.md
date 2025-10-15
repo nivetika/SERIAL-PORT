@@ -34,7 +34,8 @@ END
 
 ### OUTPUT:
 
-<img width="1501" height="735" alt="Screenshot 2025-10-15 072933" src="https://github.com/user-attachments/assets/8e9645ce-63e9-4fc6-90ea-51c40f43d541" />
+<img width="577" height="314" alt="image" src="https://github.com/user-attachments/assets/00faab0a-5bc5-42db-8b0f-ae3cb75d8e64" />
+
 
 
 ### RESULT:
