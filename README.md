@@ -27,7 +27,19 @@ END
 ### (ii) Serial Port to Transfer a Message
 
 ```
-
+ORG 00H
+MOV DPTR,#4500H
+MOV TMOD,#20H
+MOV TH1,#0FDH
+MOV SCON,#40H
+SETB TR1
+AGAIN:MOVX A,@DPTR
+MOV SBUF,A
+WAIT:JNB TI,WAIT
+CLR TI
+INC DPTR
+SJMP AGAIN
+END
 
 
 ```
@@ -36,7 +48,7 @@ END
 
 <img width="1501" height="735" alt="Screenshot 2025-10-15 072933" src="https://github.com/user-attachments/assets/4190c3ad-065b-4011-9f08-0ef789bfbd01" />
 
-
+<img width="1159" height="595" alt="Screenshot 2025-10-15 073919" src="https://github.com/user-attachments/assets/776cf053-3e74-4746-80dc-41b2513eeb60" />
 
 
 ### RESULT:
