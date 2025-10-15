@@ -1,4 +1,3 @@
-
 # Serial Transfer of Single Byte / Character using 8051 (Keil)
 
 ## AIM
@@ -46,7 +45,10 @@ END
 
 ### OUTPUT:
 
-<img width="1501" height="735" alt="Screenshot 2025-10-15 072933" src="https://github.com/user-attachments/assets/4190c3ad-065b-4011-9f08-0ef789bfbd01" />
+
+<img width="1501" height="735" alt="image" src="https://github.com/user-attachments/assets/2366cbce-088e-4cd2-8379-b43c3c24a7b4" />
+
+
 
 <img width="1159" height="595" alt="Screenshot 2025-10-15 073919" src="https://github.com/user-attachments/assets/776cf053-3e74-4746-80dc-41b2513eeb60" />
 
